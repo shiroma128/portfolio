@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<title>CONTACT - Shiroma's PORTFOLIO</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="works/style.css">
+		<script src="https://kit.fontawesome.com/d2a9c5e096.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="maintitle">
+				<a href="index.html">
+					<img src="assets/img/logo.svg" alt="logo">
+				</a>
+			</div>
+			<nav class="nav">
+				<ul class="nav-menu">
+					<li>
+						<a href="about.html">ABOUT</a>
+					</li>
+					<li>
+						<a href="works.html">WORKS</a>
+					</li>
+					<li>
+						<a href="contact.html">CONTACT</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="toggle_btn">
+				<span>
+				</span>
+				<span>
+				</span>
+			</div>
+			<div id="mask">
+			</div>
+		</header>
+		
+		<main>
+			<h1>CONTACT</h1>
+			<ul class="contact-list">
+				<li>メールアドレスまたはフォームよりお気軽にお問い合わせください。</li>
+				<li>24時間以内に返信いたします。</li>
+				<li id="available-status"></li>
+			</ul>
+			<div class="contact-address">
+				<i class="fa-solid fa-envelope"></i>
+				<a href="mailto:shiroma128@gmail.com">
+					<u>shiroma128@gmail.com</u>
+				</a>
+			</div>
+			<form class="contact-form" action="#" method="post">
+				<p>
+					<label for="name">お名前</label><br>
+					<input type="text" name="name">
+				</p>
+				<p>
+					<label for="mail">メールアドレス</label><br>
+					<input type="email" name="email" placeholder="xxx@example.com">
+				</p>
+				<p>
+					<label for="msg">内容</label><br>
+					<textarea name="message" rows="10"></textarea>
+				</p>
+				<p>
+					<button type="submit" class="submit-btn">送信</button>
+				</p>
+			</form>
+
+			<div class="home-btn">
+				<a href="index.html">HOME</a>
+			</div>
+		</main>
+				
+		<footer>
+			<p class="copyright">&copy; Shiroma's PORTFOLIO</p>
+		</footer>
+		
+		<script src="works/script.js"></script>
+	</body>
+
+</html>
