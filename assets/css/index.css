@@ -1786,19 +1786,6 @@ header.major h2 {
   font-size: 2em;
 }
 
-.profile-list div {
-  display: flex;
-}
-
-.profile-list dl {
-  margin-left: 0.5rem;
-  margin-bottom: 0;
-}
-
-.profile-list dt::after {
-  content: "  :";
-}
-
 /* Form */
 form {
   margin: 0 0 2em 0;
