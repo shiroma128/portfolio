@@ -139,10 +139,6 @@ p {
   margin: 0.5rem 0;
 }
 
-.home-contact p:last-of-type {
-  margin-bottom: 2rem;
-}
-
 .available-status {
   margin-bottom: 2rem;
 }
