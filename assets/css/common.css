@@ -357,7 +357,7 @@ h1 {
   max-width: 70%;
   width: fit-content;
   margin: 0 auto;
-  padding: 6rem;
+  padding: 0 2rem 0 3rem;
   line-height: 1.75;
   letter-spacing: 0.03em;
 }
