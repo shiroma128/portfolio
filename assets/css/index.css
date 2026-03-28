@@ -2737,6 +2737,16 @@ input[type="button"]:disabled,
   width: 100%;
 }
 
+.works-text {
+  padding: 1rem 0.5rem 0 0.5rem;
+  margin: 0;
+}
+
+.works-skill {
+  padding: 0 0.5rem;
+  margin: 0;
+}
+
 /* Poptrox */
 @-moz-keyframes spin {
   0% {
