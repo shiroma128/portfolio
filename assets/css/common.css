@@ -354,7 +354,7 @@ h1 {
 }
 
 .summary {
-  max-width: auto;
+  max-width: 60%;
   width: fit-content;
   margin: 0 auto;
   padding: 2rem 0 3rem 0;
