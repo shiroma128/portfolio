@@ -246,6 +246,21 @@ h1 {
   width: 100%;
 }
 
+.works-text {
+  padding: 1rem 0.5rem 0 0.5rem;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.works-skill {
+  padding: 0 0.5rem;
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.5;
+}
+
 .slider {
   position: relative;
   display: flex;
