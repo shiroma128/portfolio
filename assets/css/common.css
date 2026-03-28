@@ -354,10 +354,10 @@ h1 {
 }
 
 .summary {
-  max-width: 70%;
+  max-width: 90%;
   width: fit-content;
   margin: 0 auto;
-  padding: 0 2rem 0 3rem;
+  padding: 0 2rem;
   line-height: 1.75;
   letter-spacing: 0.03em;
 }
